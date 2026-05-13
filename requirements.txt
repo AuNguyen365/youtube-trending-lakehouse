@@ -1,0 +1,19 @@
+# Data processing
+pandas==2.1.0
+pyarrow==13.0.0
+fastparquet==2023.8.0
+
+# API Requests
+requests==2.31.0
+
+# Database
+psycopg2-binary==2.9.9
+SQLAlchemy==2.0.20
+
+# Airflow integrations (installed via Airflow providers in real life, but good to note)
+apache-airflow-providers-postgres
+apache-airflow-providers-http
+
+# Utility
+python-dotenv==1.0.0
+pydantic==2.4.2
