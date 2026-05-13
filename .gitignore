@@ -1,0 +1,33 @@
+# Environments
+.env
+.venv
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Airflow
+logs/
+airflow.db
+airflow.cfg
+webserver_config.py
+
+# Data Lake (Local Storage)
+# Ignore all files in data directories but keep the directory structure if needed
+data/bronze/*
+data/silver/*
+data/gold/*
+!data/**/.gitkeep
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
